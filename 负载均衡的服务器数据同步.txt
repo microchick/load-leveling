@@ -1,0 +1,18 @@
+ 基于inotify+lsyncd+rsync开发的数据同步工具
+
+
+
+
+ 
+主程序内网IP：192.168.105.248
+接收账号
+jackie
+SijDcLrpmK73
+接收同步地址
+/www/wwwroot/www.lzjia.com/
+秘钥
+eyJBIjogImphY2tpZSIsICJDIjogODczLCAiQiI6ICJTaWpEY0xycG1LNzMifQ==
+
+
+主程序2内网IP：192.168.105.243
+需要创建同样的账号，才能实现发送与接收

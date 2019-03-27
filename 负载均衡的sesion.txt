@@ -1,0 +1,10 @@
+ 
+
+并且需要注意 session问题
+解决方案：
+seesion会话共享
+使用Redis存储Session
+session.save_handler = redis
+session.save_path ="tcp://localhost:6379"
+解决办法来自：
+https://www.cnblogs.com/yangliheng/p/5852494.html
