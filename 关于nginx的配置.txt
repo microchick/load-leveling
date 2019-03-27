@@ -1,14 +1,14 @@
-1£º±ØĞëĞŞ¸ÄÅäÖÃÎÄ¼ş¹Ø±ÕsslÌø×ª¡£±ÜÃâËÀÑ­»·302
-×¢ÊÍ
-# server_name www.lzjia.com lzjia.com;
+1ï¼šå¿…é¡»ä¿®æ”¹é…ç½®æ–‡ä»¶å…³é—­sslè·³è½¬ã€‚é¿å…æ­»å¾ªç¯302
+æ³¨é‡Š
+# server_name www.xxx.com xxx.com;
 #rewrite ^/(.*) http://127.0.0.1/$1 permanent;
 
 
-²¢ÇÒĞèÒª×¢Òâ sessionÎÊÌâ
-½â¾ö·½°¸£º
-seesion»á»°¹²Ïí
-Ê¹ÓÃRedis´æ´¢Session
+å¹¶ä¸”éœ€è¦æ³¨æ„ sessioné—®é¢˜
+è§£å†³æ–¹æ¡ˆï¼š
+seesionä¼šè¯å…±äº«
+ä½¿ç”¨Rediså­˜å‚¨Session
 session.save_handler = redis
 session.save_path ="tcp://localhost:6379"
-½â¾ö°ì·¨À´×Ô£º
+è§£å†³åŠæ³•æ¥è‡ªï¼š
 https://www.cnblogs.com/yangliheng/p/5852494.html
